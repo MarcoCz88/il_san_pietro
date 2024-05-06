@@ -1,0 +1,59 @@
+.navbarCustom{
+    height: 90px;
+    width: 100%;
+    padding: 0 20px;
+    background-color:rgb(238, 238, 238);
+    position: fixed;
+
+}
+.bgLight{
+    background-color: rgba(35, 34, 34, 0.46);
+    font-size: large;
+}
+.logoCustom{
+    color: rgba(244, 241, 241, 0.938);
+    font-size:x-large;
+    border-bottom:5px solid #f8ec07;
+}
+.logoCustom:hover{
+    color: #f8ec07;
+}
+.prenotaCustom{
+    color: rgb(245, 241, 241);
+    font-size: x-large;
+}
+.prenotaCustom:hover{
+    color: #f8ec07;
+    text-decoration:underline
+
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.btnCustom{
+        background-color: #f4c909d9; /* Colore di sfondo */
+        color: #f3f2f2; /* Colore del testo */
+    
+        /* Altre proprietà opzionali */
+        border:1px solid black;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s; /* Transizione per lo stato hover */
+        border-radius: 50%; /* Rende l'icona rotonda */
+        width: 55px;
+    }
+    
+    .custom-button:hover {
+        background-color: #000; /* Colore di sfondo al passaggio del mouse */
+        color: #FFD700; /* Colore del testo al passaggio del mouse */
+}
+.navbar-nav .nav-link {
+    color: white; /* Imposta il colore del testo a bianco */
+}
+
+/* Stile per i link durante il passaggio del mouse */
+.navbar-nav .nav-link:hover {
+    color: yellow; /* Cambia il colore del testo in giallo al passaggio del mouse */
+}

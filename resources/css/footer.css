@@ -1,0 +1,25 @@
+.footer-custom {
+    border-top: 3px solid black;
+    border-bottom: 5px solid black;
+    background-color:rgb(238, 238, 238);
+}
+.logoCustom2{
+    color: rgba(5, 5, 5, 0.938);
+    font-size:x-large;
+    border-bottom:5px solid #f8ec07;
+    padding-bottom: 10px;
+}
+.list-inline-item a i {
+    color: white;
+}
+.list-unstyled a {
+    color: white; /* Imposta il colore del testo a bianco */
+    text-decoration:underline; /* Rimuovi la sottolineatura predefinita */
+    transition: color 0.3s; /* Transizione del colore durante il passaggio del mouse */
+}
+
+/* Stile per i link durante il passaggio del mouse */
+.list-unstyled a:hover {
+    text-decoration: underline; /* Aggiungi la sottolineatura al passaggio del mouse */
+    color: yellow; /* Cambia il colore del testo in giallo */
+}

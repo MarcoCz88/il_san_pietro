@@ -1,0 +1,36 @@
+.imgCustom {
+    border-radius: 50%; /* Imposta il bordo circolare */
+    width: 270px; /* Imposta la larghezza desiderata dell'immagine */
+    height: 270px; /* Imposta l'altezza desiderata dell'immagine */
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    border: 5px solid rgba(255, 208, 0, 0.718);
+    padding: 30px;
+   
+}
+/* Stile per il contenitore dell'immagine di sfondo */
+.menu-image2 {
+    position: relative;
+    overflow: hidden;
+    animation: zoomOut 10s ease-out forwards; 
+}
+
+/* Stile per l'immagine di sfondo */
+.menu-image2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    opacity: 80%;
+}
+@keyframes zoomOut {
+    from {
+        transform: scale(1.2); /* Scala iniziale (normale) */
+    }
+    to {
+        transform: scale(1.0); /* Scala finale (allontanamento) */
+    }
+}

@@ -1,0 +1,12 @@
+.spaceCustom{
+    height: 19px;
+}
+.img-preview {
+    width: 200px; /* Imposta la larghezza desiderata dell'anteprima */
+    height: 200px; /* Imposta l'altezza desiderata dell'anteprima */
+    background-size: cover; /* Scala l'immagine per coprire l'intero contenitore */
+    background-repeat: no-repeat; /* Evita la ripetizione dell'immagine di sfondo */
+    border: 1px solid #ccc; /* Aggiunge un bordo grigio chiaro */
+    border-radius: 8px; /* Aggiunge un bordo arrotondato */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra */
+}
