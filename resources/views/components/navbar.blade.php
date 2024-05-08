@@ -37,6 +37,9 @@
                     <a class="nav-link" href="{{ route('prodotti')}}">Prodotti</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('storia')}}">Storia</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('dovesiamo')}}">Dove Siamo</a>
                 </li>
                 @endif 

@@ -14,6 +14,7 @@ Route::get('/',[FrontController::class, 'welcome'])->name('home');
 Route::get('/menu',[DishController::class, 'showDish'])->name('dishes.show');
 Route::get('/dovesiamo',[FrontController::class, 'dovesiamo'])->name('dovesiamo');
 Route::get('/prodotti',[FrontController::class, 'prodotti'])->name('prodotti');
+Route::get('/storia',[FrontController::class,'storia'])->name('storia');
 
 
 // ROTTE PRENOTAZIONE

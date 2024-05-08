@@ -42,6 +42,8 @@
             </div>
           </div>
         @endif
-        <button type="submit" class="btn shadow my-3">Crea</button>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg fs-3 shadow my-3">Crea</button>
+        </div>
     </form>
 </div>

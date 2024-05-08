@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1 class="text-center mt-5">I Nostri Prodotti</h1>
+                <h1 class="text-center mt-5 bebas-neue-regular">I Nostri Prodotti</h1>
             </div>
         </div>
     </div>

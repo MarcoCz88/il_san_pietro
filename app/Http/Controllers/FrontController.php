@@ -18,4 +18,7 @@ class FrontController extends Controller
     public function prodotti () {
         return view('prodotti');
     }
+    public function storia () {
+        return view('storia');
+    }
 }
