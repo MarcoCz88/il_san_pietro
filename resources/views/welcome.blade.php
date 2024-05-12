@@ -2,9 +2,6 @@
   <x-slot name="title">
       Il San Pietro | Home
   </x-slot>
-  @if(session('success'))
-             <div class="alert alert-success">{{ session('success') }}</div>
-  @endif
   <x-masthead/>
   <div class="spaceCustom"></div>
     <div class="container mt-2">

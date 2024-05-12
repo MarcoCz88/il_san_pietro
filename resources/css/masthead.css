@@ -8,7 +8,9 @@
     padding-bottom: 10rem;
     animation: zoomOut 10s ease-out forwards;
     z-index: 2;
+    overflow-x: hidden; /* Evita l'overflow orizzontale */
 }
+
 .masthead::before {
     content: "";
     display: block;
@@ -31,11 +33,11 @@
         transform: scale(1.0); /* Scala iniziale (normale) */
     }
     to {
-        transform: scale(1.1); /* Scala finale (allontanamento) */
+        transform: scale(1.05); /* Scala finale (allontanamento meno pronunciato) */
     }
 }
 
-
+/* Stili per il testo */
 .masthead h1 {
     font-size: 3.5rem;
 }

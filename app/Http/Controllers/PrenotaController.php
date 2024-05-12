@@ -33,6 +33,6 @@ class PrenotaController extends Controller
         $prenotazione->save();
 
       
-        return redirect()->route('home')->with('success', 'Prenotazione inviata con successo!Un membro del nostro Staff sta lavorando alla richiesta, ti invieremo una mail di conferma nei prossimi minuti');
+        return redirect()->route('prenota.form')->with('success', 'Prenotazione inviata con successo!Un membro del nostro Staff sta lavorando alla richiesta, ti invieremo una mail di conferma nei prossimi minuti');
     }
 }

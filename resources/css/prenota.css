@@ -1,3 +1,29 @@
 .borderCustom{
-    border: 5px solid rgb(255, 196, 0);
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 5%;
+    border-top: none;
+    border-bottom: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.imgPrenotaCustom{
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(../img/tavolo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.borderFormCustom{
+    border-bottom: 2px solid rgb(255, 196, 0);
+}
+.btnPrenotaCustom{
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    border: none;
+    border-bottom: 3px solid rgb(255, 196, 0);
 }

@@ -3,7 +3,7 @@
     width: 100%;
     padding: 0 20px;
     background-color:rgb(238, 238, 238);
-    position: fixed;
+
 
 }
 .bgLight{
@@ -33,27 +33,22 @@
     font-weight: 500;
 }
 .btnCustom{
-        background-color: #f4c909d9; /* Colore di sfondo */
-        color: #f3f2f2; /* Colore del testo */
-    
-        /* Altre proprietà opzionali */
-        border:1px solid black;
-        padding: 10px 20px;
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s; /* Transizione per lo stato hover */
-        border-radius: 50%; /* Rende l'icona rotonda */
+        color: yellow ;
         width: 55px;
-    }
-    
-    .custom-button:hover {
-        background-color: #000; /* Colore di sfondo al passaggio del mouse */
-        color: #FFD700; /* Colore del testo al passaggio del mouse */
-}
-.navbar-nav .nav-link {
-    color: white; /* Imposta il colore del testo a bianco */
-}
+        font-size: 28px;
 
-/* Stile per i link durante il passaggio del mouse */
+    } 
+
+ 
+    .custom-button:hover {
+        background-color: #000; 
+        color: #FFD700;
+    }
+.navbar-nav .nav-link {
+    color: white;
+} 
+
+
 .navbar-nav .nav-link:hover {
-    color: yellow; /* Cambia il colore del testo in giallo al passaggio del mouse */
+    color: yellow;
 }
