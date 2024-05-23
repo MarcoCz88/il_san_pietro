@@ -2,15 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Promotion;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
     public function welcome () {
-        return view('welcome');
-    }
-    public function menu () {
-        return view('menu');
+        $promotions = Promotion::take(6)->get()->sortByDesc('created_at');
+        return view('welcome', compact('promotions'));
     }
     public function dovesiamo () {
         return view('dovesiamo');
@@ -21,4 +20,5 @@ class FrontController extends Controller
     public function storia () {
         return view('storia');
     }
+
 }

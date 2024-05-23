@@ -7,7 +7,7 @@
     padding-top: 10rem;
     padding-bottom: 10rem;
     animation: zoomOut 10s ease-out forwards;
-    z-index: 2;
+    z-index: 0;
     overflow-x: hidden; /* Evita l'overflow orizzontale */
 }
 

@@ -52,3 +52,22 @@
 .navbar-nav .nav-link:hover {
     color: yellow;
 }
+#chiama-prenota {
+    z-index: 1; /* Imposta un valore di z-index più alto per il tasto Chiama e Prenota */
+}
+.index{
+    z-index: 1;
+    position: fixed;
+    border-radius: 0%;
+    background-color: rgba(6, 122, 6, 0.707);
+}
+.indexLogout{
+    z-index: 1;
+    position: fixed;
+    border-radius: 0%;
+    background-color: rgba(248, 43, 43, 0.707);
+    right: 0;
+    height: 50px;
+    border-radius: 10%;
+
+}

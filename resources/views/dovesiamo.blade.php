@@ -3,7 +3,7 @@
         Il San Pietro | Dove Siamo
     </x-slot>
     <div class="container bebas-neue-regular">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center marginCustomP">
             <div class="col-md-6 mt-5">
                 <div class="menu-image2">
                     <img src="{{ asset('images/ilsanpietro_entrata.jpeg') }}" class="img-fluid" alt="Menu Image2">
@@ -23,8 +23,8 @@
             </div>
             <div class="col-md-6 text-center bebas-neue-regular mt-5">
                 <h3>Posizione e Indicazioni</h3>
-                <p>Testo informativo sulla posizione e le indicazioni per raggiungere il ristorante.</p>
-                <p>Da Cuneo:
+                <p>Da Cuneo:</p>
+                <p>Prendi SP21 e Via Provinciale Boves in direzione di SS20 a Roccavione
                 </p>
             </div>
         </div>

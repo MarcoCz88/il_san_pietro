@@ -1,5 +1,5 @@
 <div>
-    <h1 class="text-center mt-2">Aggiungi un nuovo piatto al menù</h1>
+    <h1 class="text-center mt-5">Aggiungi un nuovo piatto al menù</h1>
     @if(session()->has('message'))
     <div class="flex flex-row justify-center my-2 alert alert-success">
         {{session('message')}}
