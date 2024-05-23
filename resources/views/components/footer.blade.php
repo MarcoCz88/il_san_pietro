@@ -16,7 +16,7 @@
                 <h4 class="bebas-neue-regular text-center mb-4 mt-1">Link Utili</h4>
                 <ul class="list-unstyled text-center">
                     <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="{{ route('dishes.show')}}">Promozioni</a></li>
+                    <li><a href="{{ route('promotion.show')}}">Promozioni</a></li>
                     <li><a href="{{ route('dishes.show')}}">Menu</a></li>
                     <li><a href="{{ route('prodotti')}}">Prodotti</a></li>
                     <li><a href="{{ route('dovesiamo')}}">Dove siamo</a></li>

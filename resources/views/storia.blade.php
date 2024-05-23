@@ -1,6 +1,6 @@
 <x-layout>
   <x-slot name="title">
-        Il San Pietro | Dove Siamo
+        Il San Pietro | Storia
   </x-slot>
   <div class="container marginCustomP">
         <div class="row">

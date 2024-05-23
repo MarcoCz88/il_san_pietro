@@ -1,0 +1,59 @@
+
+  .custom-card-height {
+    height: 50vh;
+  }
+
+  .card-img-container2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%; /* Altezza dell'immagine rispetto alla card */
+    overflow: hidden;
+  }
+
+  .card-img-top2 {
+    width: 90%; /* Larghezza dell'immagine */
+    height: auto; /* Mantieni le proporzioni dell'immagine */
+  }
+
+  .whatsapp-button-custom {
+    display: flex;
+    align-items: center;
+    background-color: #25d36500;
+    color: rgba(16, 1, 1, 0.842);
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 0px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+  }
+
+  .whatsapp-button-custom img {
+    width: 44px;
+    height: 44px;
+    margin-right: 8px;
+  }
+
+  .whatsapp-button-custom:hover {
+    background-color: #128c263a;
+  }
+
+  @media (min-width: 992px) {
+    .buttonCustom2 {
+        margin-left: -110%;
+        margin-top: 3%;
+    }
+  }
+  .buttonCP{
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    border: none;
+    border-bottom: 3px solid rgb(255, 196, 0);
+  }
+
