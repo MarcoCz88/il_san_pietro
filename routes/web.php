@@ -10,7 +10,7 @@ use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\AdminPrenotazioneController;
 
 // ROTTE PUBBLICHE
-// Route::get('/home',[FrontController::class, 'welcome'])->name('home');
+Route::get('/home',[FrontController::class, 'welcome'])->name('home');
 Route::get('/',[FrontController::class, 'welcome'])->name('home');
 Route::get('/menu',[DishController::class, 'showDish'])->name('dishes.show');
 Route::get('/dovesiamo',[FrontController::class, 'dovesiamo'])->name('dovesiamo');
