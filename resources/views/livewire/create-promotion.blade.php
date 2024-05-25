@@ -28,6 +28,27 @@
             {{$message}}
             @enderror
         </div>
+        <div>
+           <input wire:model="temporary_photos" type= file name="photos" multiple class="form-control shadow @error('temporary_photos.*') is-invalid @enderror" placeholder="Img"/>
+           @error('temporary_photos.*')
+               <p class="text-danger mt-2">{{$message}}</p>
+           @enderror
+        </div>
+        @if(!empty($photos))
+          <div class="row">
+            <div class="col-12">
+                <p>Anteprima Foto</p>
+                <div class="row border border-4 border-info rounded shadow py-4">
+                @foreach ($photos as $key => $photo)
+                 <div class="col my-3">
+                  <div class="img-preview mx-auto shadow rounded" style="background-image: url('{{ $photo->temporaryUrl() }}')"></div>
+                  <button type="button" class="btn btn-danger shadow d-block text-center mx-auto" wire:click="removeImage({{ $key }})">Cancella</button>
+                 </div>
+                @endforeach
+                </div>
+            </div>
+          </div>
+        @endif
         
         <div class="text-center">
             <button type="submit" class="btn btn-primary btn-lg fs-3 shadow my-3">Crea</button>

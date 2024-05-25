@@ -13,7 +13,7 @@
       <div class="col-12 my-3">
         <div class="card shadow w-100 custom-card-height position-relative">
           <div class="card-img-container2">
-            <img src="https://picsum.photos/900" alt="Promozione IL San Pietro Limone Piemonte" class="card-img-top2">
+            <img src="{{ Storage::url($promotion->photos->first()->path) }}" alt="Promozione IL San Pietro Limone Piemonte" class="card-img-top2">
           </div>
           <div class="card-body">
              <div class="row">
