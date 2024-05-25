@@ -7,39 +7,50 @@
         <div class="collapse navbar-collapse justify-content-center text-center bgLight" id="navbarSupportedContent">
             <ul class="navbar-nav bebas-neue-regular">
                 @if(Auth::check() && Auth::user()->is_revisor)
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('admin.dashboardp')}}">Modifica Promozioni</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('promotion.add')}}">Aggiungi Promozione</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('admin.dashboard')}}">Modifica Menù</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route('dish.add')}}">Aggiungi piatto</a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('admin.dashboardp')}}">Modifica Promozioni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('promotion.add')}}">Aggiungi Promozione</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('admin.dashboard')}}">Modifica Menù</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('dish.add')}}">Aggiungi piatto</a>
+                </li>
                     
                 @else
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('home')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('promotion.show')}}">Promozioni</a>
+                    <a class="nav-link" href="{{ route('promotion.show')}}">{{__('ui.Promotion')}}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('dishes.show')}}">Menù</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('prodotti')}}">Prodotti</a>
+                    <a class="nav-link" href="{{ route('prodotti')}}">{{__('ui.Prod')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('storia')}}">Storia</a>
+                    <a class="nav-link" href="{{ route('storia')}}">{{__('ui.History')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('dovesiamo')}}">Dove Siamo</a>
+                    <a class="nav-link" href="{{ route('dovesiamo')}}">{{__('ui.Where')}}</a>
                 </li>
-                @endif 
+                @endif   
+            </ul>
+            <ul class="ml-5 navbar-nav bebas-neue-regular">
+                <li class="nav-item">
+                        <x-_locale class="nav-link" lang="en" nation="gb"/>
+                </li>
+                <li class="nav-item">
+                        <x-_locale class="nav-link" lang="it" nation="it"/>
+                </li>
+                <li class="nav-item">
+                        <x-_locale class="nav-link" lang="fr" nation="fr"/>   
+                </li>
             </ul>
         </div>
        
@@ -54,5 +65,5 @@
             </form>
         </div>
         @else
-        <a class="col-12 btn btn-success text-center bebas-neue-regular fs-2 index" href="tel:+39333598086">Chiama e Prenota</a>
+        <a class="col-12 btn btn-success text-center bebas-neue-regular fs-2 index" href="tel:+39333598086">{{__('ui.Chiama')}}</a>
         @endif

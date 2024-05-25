@@ -9,7 +9,7 @@
                     <img src="{{ asset('images/ilsanpietro_entrata.jpeg') }}" class="img-fluid" alt="Menu Image2">
                 </div>
                 <div class="text-dark mt-5">
-                        <h1 class="text-center">A meno di mezz'ora da Cuneo.</h1>
+                        <h1 class="text-center">{{__('ui.Dist')}}</h1>
                 </div>
             </div>
         </div>
@@ -22,10 +22,9 @@
                 </a>
             </div>
             <div class="col-md-6 text-center bebas-neue-regular mt-5">
-                <h3>Posizione e Indicazioni</h3>
-                <p>Da Cuneo:</p>
-                <p>Prendi SP21 e Via Provinciale Boves in direzione di SS20 a Roccavione
-                </p>
+                <h3>{{__('ui.Pos&ind')}}</h3>
+                <h3>{{__('ui.FCuneo')}}</h3>
+                <h3>{{__('ui.Road')}}</h3>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mt-4">
-        <h1 class="text-center mt-5 bebas-neue-regular">Le Nostre Promozioni</h1>
+        <h1 class="text-center mt-5 bebas-neue-regular">{{__('ui.OurProm')}}</h1>
       </div>
     </div>
     <div class="row">

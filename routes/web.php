@@ -10,13 +10,17 @@ use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\AdminPrenotazioneController;
 
 // ROTTE PUBBLICHE
-Route::get('/home',[FrontController::class, 'welcome'])->name('home');
+// Route::get('/home',[FrontController::class, 'welcome'])->name('home');
 Route::get('/',[FrontController::class, 'welcome'])->name('home');
 Route::get('/menu',[DishController::class, 'showDish'])->name('dishes.show');
 Route::get('/dovesiamo',[FrontController::class, 'dovesiamo'])->name('dovesiamo');
 Route::get('/prodotti',[FrontController::class, 'prodotti'])->name('prodotti');
 Route::get('/storia',[FrontController::class,'storia'])->name('storia');
 Route::get('/promozioni',[PromotionController::class,'showPromotion'])->name('promotion.show');
+
+
+Route::post('/lingua/{lang}', [FrontController::class, 'setLanguage'])->name('set_language_locale');
+
 
 
 // ROTTE PRENOTAZIONE
@@ -28,8 +32,8 @@ Fortify::loginView(function () {
     return view('auth.login');
 });
 
-// ROTTE AMMINISTRATORE
 
+// ROTTE AMMINISTRATORE
 // AGGIUNGERE/MODIFICARE/ELIMINARE PIATTO
 Route::get('/nuovo/piatto',[DishController::class, 'addDish'])->middleware('auth')->name('dish.add');
 Route::middleware(['auth',])->group(function () {

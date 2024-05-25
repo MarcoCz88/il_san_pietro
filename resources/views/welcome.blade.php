@@ -8,7 +8,7 @@
         <div class="row mb-4">
           <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <h1 class="text-center mb-4 bebas-neue-regular">Promozioni</h1>
+                <h1 class="text-center mb-4 bebas-neue-regular">{{__('ui.Promotion')}}</h1>
                 @foreach ($promotions as $index => $promotion)
                 <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
                         <div class="d-flex justify-content-center align-items-center"> 
@@ -55,15 +55,15 @@
   </div>
 
   <div class="d-flex justify-content-center">
-        <a href="{{ route('dishes.show') }}" class="fs-1 mt-2 btn-xl text-dark btn-light mx-auto bebas-neue-regular">Vai al Menù</a>
+        <a href="{{ route('dishes.show') }}" class="fs-1 mt-2 btn-xl text-dark btn-light mx-auto bebas-neue-regular">{{__('ui.Menù')}}</a>
   </div> 
     
   <div class="container mt-4">
         <div class="card mt-3 "> 
             <img src="{{ asset('images/prodotti1.jpeg') }}" class="card-img-top" alt="Card Image" style="height: 300px; object-fit: cover;">
             <div class="card-img-overlay d-flex flex-column justify-content-center"> <!-- Utilizza flexbox per centrare verticalmente il contenuto -->
-                <h5 class="fs-1 card-title text-center text-light bebas-neue-regular">I nostri prodotti</h5>
-                <a href="{{ route('prodotti')}}" class="linkHover fs-4 mt-2 text-light mx-auto bebas-neue-regular">Vai a prodotti</a> <!-- Utilizza mx-auto per centrare orizzontalmente il pulsante -->
+                <h5 class="fs-1 card-title text-center text-light bebas-neue-regular">{{__('ui.OurProd')}}</h5>
+                <a href="{{ route('prodotti')}}" class="linkHover fs-4 mt-2 text-light mx-auto bebas-neue-regular">{{__('ui.GoProd')}}</a> <!-- Utilizza mx-auto per centrare orizzontalmente il pulsante -->
             </div>
         </div>
   </div>

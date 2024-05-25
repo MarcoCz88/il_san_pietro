@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row">
             <h1 class="col-12 text-center mt-5 bebas-neue-regular">
-               Il Nostro Menù
+            {{__('ui.OurMenù')}}
             </h1>
             @foreach ($dishes as $index => $dish)
             <div class="col-12 col-md-6 my-4"> <!-- Utilizza col-md-6 per due piatti per riga su desktop -->

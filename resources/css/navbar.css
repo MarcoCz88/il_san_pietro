@@ -71,3 +71,18 @@
     border-radius: 10%;
 
 }
+.flag-custom {
+    background-color: #00000000;
+    border: none;
+}
+.flag-custom2 {
+
+    width: 100%; /* Occupa tutta la larghezza del dropdown */
+    padding: 0.4rem; /* Padding per le bandiere */
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
