@@ -15,5 +15,8 @@ class PromotionController extends Controller
 
         return view ('/promozioni', compact('promotions'));
     }
-    
+    public function showDetails($id) {
+        $promotion = Promotion::find($id);
+        return view('promotion.details', compact('promotion'));
+    }
 }

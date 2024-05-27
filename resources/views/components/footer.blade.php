@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col-md-4 mb-4">
                 <h4 class="bebas-neue-regular logoCustom2 text-light text-center mb-4 mt-3x">Il San Pietro</h4>
-                <p class="text-center">Scopri il fascino di una cucina innovativa tra le Alpi. Il San Pietro ti accoglie in un'atmosfera unica, con camere di lusso e la cucina innovativa degli Chef Artuso e Fedele.</p>
+                <p class="text-center">{{__('ui.Footer')}}</p>
             </div>
             <div class="col-md-4 mb-4">
                 <h4 class="bebas-neue-regular text-center mb-3 mt-3">{{__('ui.InfoC')}}</h4>

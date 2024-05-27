@@ -25,7 +25,8 @@
     'Quality'=>'Alta Qualità:',
     'QualityBody'=>'Il ristorante si impegna a utilizzare solo ingredienti di altissima qualità per offrire piatti deliziosi e soddisfacenti ai suoi clienti. La selezione accurata degli ingredienti è fondamentale per la creazione di piatti raffinati e gustosi.',
     'Road'=>'Prendi SP21 e Via Provinciale Boves in direzione di SS20 a Roccavione',
-    
+    'Footer'=>'Ristorante giovane e informale nel cuore delle montagne piemontesi, precisamente a Limone Piemonte, dove riscoprire gli autentici sapori della tradizione culinaria italiana.',
+    'Price'=>'Prezzo',
 
 
 

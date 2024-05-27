@@ -25,5 +25,6 @@
    'Quality'=>'Haute qualité :',
    'QualityBody'=>'Le restaurant s’engage à n’utiliser que des ingrédients de la plus haute qualité pour offrir des plats délicieux et satisfaisants à ses clients. La sélection minutieuse des ingrédients est essentielle pour la création de plats raffinés et savoureux.',
    'Road'=>'Prendre la SP21 et la Via Provinciale Boves en direction de la SS20 à Roccavione',
-   
+   'Footer'=>'Un restaurant jeune et informel au cœur des montagnes piémontaises, précisément à Limone Piemonte, où vous pourrez redécouvrir les saveurs authentiques de la tradition culinaire italienne.',
+   'Price'=>'Prix',
  ];

@@ -14,3 +14,15 @@
     background-color: rgba(45, 43, 42, 0.3);
 
 }
+.hoverCustom{
+    color: black;
+}
+.hoverCustom:hover{
+    color: rgb(255, 196, 0);
+}
+.hoverCustom2{
+    color: rgb(245, 242, 242);
+}
+.hoverCustom2:hover{
+    color: rgb(243, 197, 14);
+}

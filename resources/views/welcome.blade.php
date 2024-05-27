@@ -30,7 +30,7 @@
                                        <p class="card-text fs-3">€{{ $promotion->promotion_price }}</p>
                                     </div>
                                     <div class="col-md-6 text-center">
-                                       <a href="{{ route('promotion.show', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">Visualizza</a>
+                                       <a href="{{ route('promotion.details', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">Visualizza</a>
                                     </div>
                                  </div>
                               </div>
@@ -55,7 +55,7 @@
   </div>
 
   <div class="d-flex justify-content-center">
-        <a href="{{ route('dishes.show') }}" class="fs-1 mt-2 btn-xl text-dark btn-light mx-auto bebas-neue-regular">{{__('ui.Menù')}}</a>
+        <a href="{{ route('dishes.show') }}" class="fs-1 mt-2 btn-xl mx-auto bebas-neue-regular hoverCustom">{{__('ui.Menù')}}</a>
   </div> 
     
   <div class="container mt-4">
@@ -63,7 +63,7 @@
             <img src="{{ asset('images/prodotti1.jpeg') }}" class="card-img-top" alt="Card Image" style="height: 300px; object-fit: cover;">
             <div class="card-img-overlay d-flex flex-column justify-content-center"> <!-- Utilizza flexbox per centrare verticalmente il contenuto -->
                 <h5 class="fs-1 card-title text-center text-light bebas-neue-regular">{{__('ui.OurProd')}}</h5>
-                <a href="{{ route('prodotti')}}" class="linkHover fs-4 mt-2 text-light mx-auto bebas-neue-regular">{{__('ui.GoProd')}}</a> <!-- Utilizza mx-auto per centrare orizzontalmente il pulsante -->
+                <a href="{{ route('prodotti')}}" class="linkHover fs-4 mt-2 mx-auto bebas-neue-regular hoverCustom2">{{__('ui.GoProd')}}</a> <!-- Utilizza mx-auto per centrare orizzontalmente il pulsante -->
             </div>
         </div>
   </div>

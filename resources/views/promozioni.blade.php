@@ -29,7 +29,7 @@
                  <p class="fs-3 ">€{{ $promotion->promotion_price }}</p>
                </div>
                <div class="col-md-6 text-center">
-                        <a href="{{ route('promotion.show', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">Visualizza</a>
+                        <a href="{{ route('promotion.details', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">Visualizza</a>
                 </div>
              </div>
           </div>

@@ -22,6 +22,7 @@ class FrontController extends Controller
     public function storia () {
         return view('storia');
     }
+    
     public function setLanguage($lang)
     {
         if(in_array($lang,['en','it','fr'])){
