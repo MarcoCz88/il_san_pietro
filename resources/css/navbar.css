@@ -11,9 +11,43 @@
     font-size: large;
 }
 .logoCustom{
-    color: rgba(244, 241, 241, 0.938);
-    font-size:x-large;
-    border-bottom:5px solid #f8ec07;
+   height: 90px;
+   width: auto;
+   margin-top:-8%;
+}
+.logoCustomF{
+    height: 90px;
+    width: auto;
+    margin-left: 37%;
+}
+
+.logoCustomM{
+    height: 210px;
+    width: auto;
+    margin-left: 7%;
+    margin-bottom: -10%;
+
+}
+@media (min-width: 992px) {
+    .logoCustomM {
+        height: 200px;
+        width: auto;
+        margin: 0px;
+    }
+}
+@media (min-width: 992px) {
+    .logoCustom {
+        margin-left: 30%;
+        margin-top: 0%;
+        
+    }
+}
+@media (min-width: 992px) {
+    .logoCustomF {
+        margin-left: 40%;
+        margin-top: 0%;
+        
+    }
 }
 .logoCustom:hover{
     color: #f8ec07;
@@ -32,11 +66,12 @@
     font-style: normal;
     font-weight: 500;
 }
-.pacifico-regular {
-    font-family: "Pacifico", cursive;
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;
   }
+  
   
 .btnCustom{
         color: yellow ;
@@ -64,6 +99,7 @@
 .index{
     z-index: 1;
     position: fixed;
+    border: none;
     border-radius: 0%;
     background-color: rgba(6, 122, 6, 0.707);
     margin-top: 52px;
@@ -87,11 +123,12 @@
 
     width: 100%; /* Occupa tutta la larghezza del dropdown */
     padding: 0.4rem; /* Padding per le bandiere */
-
+    
     display:flex;
     align-items: center;
     justify-content: center;
 
 }
+
 
 

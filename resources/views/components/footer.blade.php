@@ -1,8 +1,10 @@
 <footer class="shadow py-5 mt-5 footer-custom bg-dark text-light">
     <div class="container">
         <div class="row justify-content-center">
+            
             <div class="col-md-4 mb-4">
-                <h4 class="bebas-neue-regular logoCustom2 text-light text-center mb-4 mt-3x">Il San Pietro</h4>
+                <img class="logoCustomF" src="{{ asset('images/sanpietro_logo.png') }}" alt="Logo de Il San Pietro">
+                <h4 class="great-vibes-regular logoCustom2 text-light text-center mb-4 mt-3x">Il San Pietro</h4>
                 <p class="text-center">{{__('ui.Footer')}}</p>
             </div>
             <div class="col-md-4 mb-4">

@@ -1,6 +1,10 @@
 <nav class="navbar shadow navbarCustom navbar-expand-lg fixed-top bg-dark text-light">
     <div class="container justify-content-center">
-        <a class="col-4 navbar-brand logoCustom text-center bebas-neue-regular" href="{{ route('home') }}">Il San Pietro</a>
+        <div class="col-4 navbar-brand">
+            <a href="{{ route('home') }}">
+                <img class="logoCustom" src="{{ asset('images/sanpietro_logo.png') }}" alt="Logo de Il San Pietro">
+            </a>
+        </div>
         <button class="col-8 navbar-toggler btnCustom " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa-xl fa-solid fa-bars"></span>
         </button>

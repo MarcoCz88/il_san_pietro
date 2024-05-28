@@ -9,7 +9,7 @@
           <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="d-flex justify-content-center">
-                     <a href="{{ route('promotion.show')}}" class=" mt-2 mb-3 mx-auto pacifico-regular hoverCustom">{{__('ui.Promotion')}}</a>
+                     <a href="{{ route('promotion.show')}}" class=" mt-2 mb-3 mx-auto great-vibes-regular hoverCustom">{{__('ui.Promotion')}}</a>
                 </div>
                 @foreach ($promotions as $index => $promotion)
                 <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
@@ -57,7 +57,7 @@
   </div>
 
   <div class="d-flex justify-content-center">
-        <a href="{{ route('dishes.show') }}" class="mt-2 mx-auto pacifico-regular hoverCustom">{{__('ui.Menù')}}</a>
+        <a href="{{ route('dishes.show') }}" class="mt-2 mx-auto great-vibes-regular hoverCustom">{{__('ui.Menù')}}</a>
   </div> 
     
   <div class="container mt-4">
