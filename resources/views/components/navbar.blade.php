@@ -43,9 +43,10 @@
                 @endif   
             </ul> 
             <div class="nav-item d-flex justify-content-center ml-auto">
+                      <x-_locale class="nav-link" lang="it" nation="it"> </x-_locale>
                       <x-_locale class="nav-link" lang="fr" nation="fr"> </x-_locale>
                       <x-_locale class="nav-link" lang="en" nation="gb"> </x-_locale>
-                      <x-_locale class="nav-link" lang="it" nation="it"> </x-_locale>
+                      <x-_locale class="nav-link" lang="de" nation="de"> </x-_locale>
             </div> 
         </div>  
     </div>
@@ -58,5 +59,7 @@
     </form>
 </div>
 @else
-<a class="col-12 btn btn-success text-center bebas-neue-regular fs-2 index" href="tel:+39333598086">{{__('ui.Chiama')}}</a>
+<div class="row align-items-center justify-content-center">
+    <a class="col-7 col-md-3 btn btn-success text-center bebas-neue-regular fs-2 index" href="tel:+39333598086">{{__('ui.Chiama')}}</a>
+</div>
 @endif

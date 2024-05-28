@@ -3,9 +3,9 @@
     Il San Pietro | Promozioni
   </x-slot>
   <div class="container">
-    <div class="row">
-      <div class="col-12 mt-4">
-        <h1 class="text-center mt-5 bebas-neue-regular">{{__('ui.OurProm')}}</h1>
+    <div class="row align-items-center justify-content-center">
+      <div class="col-10 col-md-5 mt-4 ">
+        <h1 class="text-center mt-5 bebas-neue-regular borderYellow">{{__('ui.OurProm')}}</h1>
       </div>
     </div>
     <div class="row">
@@ -29,7 +29,7 @@
                  <p class="fs-3 ">€{{ $promotion->promotion_price }}</p>
                </div>
                <div class="col-md-6 text-center">
-                        <a href="{{ route('promotion.details', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">Visualizza</a>
+                        <a href="{{ route('promotion.details', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">{{__('ui.Visual')}}</a>
                 </div>
              </div>
           </div>

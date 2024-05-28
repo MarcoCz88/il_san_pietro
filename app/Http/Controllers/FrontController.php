@@ -25,7 +25,7 @@ class FrontController extends Controller
     
     public function setLanguage($lang)
     {
-        if(in_array($lang,['en','it','fr'])){
+        if(in_array($lang,['en','it','fr','de'])){
           App::setLocale($lang);
           Session::put('locale',$lang);  
         }

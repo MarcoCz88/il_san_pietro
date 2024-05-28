@@ -3,9 +3,9 @@
          Il San Pietro | Prodotti
     </x-slot>
     <div class="container marginCustomP">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center mt-5 bebas-neue-regular">{{__('ui.OurProd')}}</h1>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-10 col-md-5">
+                <h1 class="text-center mt-5 bebas-neue-regular borderYellow">{{__('ui.OurProd')}}</h1>
             </div>
         </div>
     </div>

@@ -11,8 +11,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <h1 class="col-12 text-center mt-5 bebas-neue-regular">
+        <div class="row align-items-center justify-content-center">
+            <h1 class="col-9 col-md-7 text-center mt-5 bebas-neue-regular borderYellow">
             {{__('ui.OurMenù')}}
             </h1>
             @foreach ($dishes as $index => $dish)

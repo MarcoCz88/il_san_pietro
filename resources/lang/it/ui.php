@@ -27,6 +27,7 @@
     'Road'=>'Prendi SP21 e Via Provinciale Boves in direzione di SS20 a Roccavione',
     'Footer'=>'Ristorante giovane e informale nel cuore delle montagne piemontesi, precisamente a Limone Piemonte, dove riscoprire gli autentici sapori della tradizione culinaria italiana.',
     'Price'=>'Prezzo',
+    'Visual'=>'Visualizza',
 
 
 

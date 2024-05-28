@@ -27,4 +27,5 @@
     'Road'=>'Take SP21 and Via Provinciale Boves in the direction of SS20 in Roccavione',
     'Footer'=>'A young and informal restaurant in the heart of the Piedmontese mountains, precisely in Limone Piemonte, where you can rediscover the authentic flavors of the Italian culinary tradition.',
     'Price'=>'Price',
+    'Visual'=>'Show',
  ];

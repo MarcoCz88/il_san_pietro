@@ -45,3 +45,6 @@
 .imgRoundedMenu{
     background-size: cover;
 }
+.borderYellow{
+    border-bottom: 5px solid rgb(255, 221, 0);
+}

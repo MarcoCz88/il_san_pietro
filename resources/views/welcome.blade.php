@@ -8,7 +8,9 @@
         <div class="row mb-4">
           <div id="projectsCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <h1 class="text-center mb-4 bebas-neue-regular">{{__('ui.Promotion')}}</h1>
+                <div class="d-flex justify-content-center">
+                     <a href="{{ route('promotion.show')}}" class=" mt-2 mb-3 mx-auto pacifico-regular hoverCustom">{{__('ui.Promotion')}}</a>
+                </div>
                 @foreach ($promotions as $index => $promotion)
                 <div class="carousel-item {{ $index == 0 ? 'active' : '' }}">
                         <div class="d-flex justify-content-center align-items-center"> 
@@ -30,7 +32,7 @@
                                        <p class="card-text fs-3">€{{ $promotion->promotion_price }}</p>
                                     </div>
                                     <div class="col-md-6 text-center">
-                                       <a href="{{ route('promotion.details', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow">Visualizza</a>
+                                       <a href="{{ route('promotion.details', compact('promotion')) }}" class="btn buttonCP buttonCustom2 shadow bebas-neue-regular">{{__('ui.Visual')}}</a>
                                     </div>
                                  </div>
                               </div>
@@ -55,7 +57,7 @@
   </div>
 
   <div class="d-flex justify-content-center">
-        <a href="{{ route('dishes.show') }}" class="fs-1 mt-2 btn-xl mx-auto bebas-neue-regular hoverCustom">{{__('ui.Menù')}}</a>
+        <a href="{{ route('dishes.show') }}" class="mt-2 mx-auto pacifico-regular hoverCustom">{{__('ui.Menù')}}</a>
   </div> 
     
   <div class="container mt-4">
