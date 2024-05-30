@@ -15,17 +15,92 @@
 
 }
 .hoverCustom{
-    color: rgb(25, 25, 25);
+    color: #0b0a0a;
     font-size: 38px;
+    text-decoration:none;
+    border-bottom: 2px solid #f6af71dd;
+}
+.hoverCustomChef{
+    color: #333;
+    font-size: 38px;
+    text-decoration:none;
+    border-bottom: 2px solid #f6af71dd;;
 }
 .hoverCustom:hover{
-    color: rgb(255, 196, 0);
+    color: #f0a869dd;
     font-size: 40px;
+
     
 }
 .hoverCustom2{
     color: rgb(245, 242, 242);
 }
 .hoverCustom2:hover{
-    color: rgb(243, 197, 14);
+    color: #f0a869dd;
+}
+ 
+ .chef-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #f6af71f6;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative; /* Per posizionare il nome all'interno */
+ }
+ 
+ .imgChef {
+    height: 350px;
+    width: auto;
+    border-radius: 50%;
+ }
+ 
+ 
+ @media (min-width: 992px) {
+    .imgChef {
+        height: 420px;
+        
+    }
+}
+ 
+ .chef-name {
+    position: absolute;
+    bottom: 150px; /* Regola la posizione verticale del nome */
+    left: 230px; /* Regola la posizione orizzontale del nome */
+    font-size: 16px;
+    color: #333; /* Colore del testo */
+ }
+.borderPY{
+    border-bottom: 3px solid #f6af71dd;
+}
+.sizeChef {
+    font-size: 38px
+}
+.borderChefRL{
+    border-left: 3px solid #f6af71dd;
+    border-right: 3px solid #f6af71dd;
+    margin-top: 50px;
+}
+.backgroundOrari{
+    background-color: rgba(53, 42, 4, 0.784);
+    border-radius: 10%;
+    color: antiquewhite;
+}
+.widthCustom{
+    width: 70%;
+    margin-left: 16%;
+    
+}
+.backgroundCardPro{
+    background-color: rgb(226, 232, 171);
+    border-radius: 2%;
+}
+.marginPromoCustom{
+    margin-top: 68%;
+}
+@media (min-width: 992px) {
+    .marginPromoCustom {
+        margin-top: 55%;
+        
+    }
 }

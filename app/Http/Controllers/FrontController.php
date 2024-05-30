@@ -22,6 +22,9 @@ class FrontController extends Controller
     public function storia () {
         return view('storia');
     }
+    public function vegetal () {
+        return view('vegetal');
+    }
     
     public function setLanguage($lang)
     {

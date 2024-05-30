@@ -2,6 +2,8 @@
  return [
     'Welcome'=>'Welcome to',
     'Promotion'=>'Promotions',
+    'Promotion2'=>'Tastings and',
+    'Promotion3'=>'Promotion with Le Village SPA',
     'Chiama'=>'Call and Book',
     'Prod'=>'Products',
     'History'=>'History',
@@ -28,4 +30,12 @@
     'Footer'=>'A young and informal restaurant in the heart of the Piedmontese mountains, precisely in Limone Piemonte, where you can rediscover the authentic flavors of the Italian culinary tradition.',
     'Price'=>'Price',
     'Visual'=>'Show',
+    'Chef'=>'Our Chefs',
+    'Vegetarian'=>'Plant-based menu',
+    'OurMenùV'=>'Our plant-based menu',
+    'Orari'=>'Opening hours',
+    'LunVen'=>'MONDAY - SATURDAY',
+    'Dom'=>'SUNDAY',
+    'Edoardo'=>'At the age of 22, after graduating in languages, he decided to follow his passion for cooking and attended the IFSE Academy of Haute Cuisine and then worked in several starred restaurants, first in Italy, in Asti, and then in Switzerland, in Gstaad.',
+    'Alessandro'=>'23 years old, after graduating from the hotel institute, he worked for several years in catering first in Italy and then abroad, and then decided to refine his skills by successfully qualifying at the IFSE Academy of Haute Cuisine and Haute Pasture.',
  ];

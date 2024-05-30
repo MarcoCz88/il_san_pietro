@@ -6,7 +6,7 @@
 .logoCustom2{
     color: rgba(5, 5, 5, 0.938);
     font-size:x-large;
-    border-bottom:5px solid #f8ec07;
+    border-bottom:5px solid #f5b175dd;
     padding-bottom: 10px;
 }
 .list-inline-item a i {
@@ -21,5 +21,5 @@
 /* Stile per i link durante il passaggio del mouse */
 .list-unstyled a:hover {
     text-decoration: underline; /* Aggiungi la sottolineatura al passaggio del mouse */
-    color: yellow; /* Cambia il colore del testo in giallo */
+    color: rgb(244, 167, 109); /* Cambia il colore del testo in giallo */
 }

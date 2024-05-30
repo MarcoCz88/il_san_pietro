@@ -71,10 +71,21 @@
     font-weight: 400;
     font-style: normal;
   }
+  .amita-regular {
+    font-family: "Amita", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amita-bold {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
   
   
 .btnCustom{
-        color: yellow ;
+        color: #f6af71a7 ;
         width: 55px;
         font-size: 28px;
 

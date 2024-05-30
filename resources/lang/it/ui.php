@@ -2,6 +2,8 @@
  return [
     'Welcome'=>'Benvenuti da',
     'Promotion'=>'Promozioni',
+    'Promotion2'=>'Degustazioni e',
+    'Promotion3'=>'Pacchetti con Le Village SPA',
     'Chiama'=>'Chiama e Prenota',
     'Prod'=>'Prodotti',
     'History'=>'Storia',
@@ -28,6 +30,16 @@
     'Footer'=>'Ristorante giovane e informale nel cuore delle montagne piemontesi, precisamente a Limone Piemonte, dove riscoprire gli autentici sapori della tradizione culinaria italiana.',
     'Price'=>'Prezzo',
     'Visual'=>'Visualizza',
+    'Chef'=>'I nostri Chefs',
+    'Vegetarian'=>'Menù Vegetale',
+    'OurMenùV'=>'Il Nostro Menù Vegetale',
+    'Orari'=>'Orari di apertura',
+    'LunVen'=>'LUNEDì - SABATO',
+    'Dom'=>'DOMENICA',
+    'Edoardo'=>'22 anni, dopo il diploma in lingue, decide di seguire la passione per la cucina e frequenta l\'accademia di Alta Cucina IFSE per poi lavorare in diversi ristoranti stellati, prima in Italia, ad Asti, e poi in Svizzera, a Gstaad.',
+    'Alessandro'=>'23 anni, dopo essersi diplomato all\'istituto alberghiero, lavora diversi anni nella ristorazione prima in Italia e poi all\'estero, per poi decidere di affinare le sue abilità qualificandosi con successo all\'Accademia di Alta Cucina e Alta Pasticceria IFSE. ',
+
+    
 
 
 

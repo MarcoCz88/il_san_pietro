@@ -18,6 +18,7 @@ Route::get('/prodotti',[FrontController::class, 'prodotti'])->name('prodotti');
 Route::get('/storia',[FrontController::class,'storia'])->name('storia');
 Route::get('/promozioni',[PromotionController::class,'showPromotion'])->name('promotion.show');
 Route::get('/promozioni/{promotion}',[PromotionController::class,'showDetails'])->name('promotion.details');
+Route::get('/menù-vegetale',[FrontController::class, 'vegetal'])->name('vegetal');
 
 
 

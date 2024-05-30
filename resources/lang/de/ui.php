@@ -2,6 +2,8 @@
  return [
     'Welcome'=>'Willkommen bei',
     'Promotion'=>'Aktionen',
+    'Promotion2'=>'Verkostungen und',
+    'Promotion3'=>'Promotion mit Le Village SPA',
     'Chiama'=>'Anrufen & Buchen',
     'Prod'=>'Produkte',
     'History'=>'Geschichte',
@@ -28,4 +30,12 @@
     'Footer'=>'Ein junges und informelles Restaurant im Herzen der piemontesischen Berge, genau in Limone Piemonte, wo Sie die authentischen Aromen der italienischen kulinarischen Tradition wiederentdecken können.',
     'Price'=>'Preis',
     'Visual'=>'Zeigen',
+    'Chef'=>'Unsere Köche',
+    'Vegetarian'=>'Pflanzliches Menü',
+    'OurMenùV'=>'Unser pflanzliches Menü',
+    'Orari'=>'Öffnungszeiten',
+    'LunVen'=>'MONTAG - SAMSTAG',
+    'Dom'=>'SONNTAG',
+    'Edoardo'=>'Im Alter von 22 Jahren, nach seinem Abschluss in Sprachen, beschloss er, seiner Leidenschaft für das Kochen zu folgen und besuchte die IFSE Academy of Haute Cuisine und arbeitete dann in mehreren Sternerestaurants, zuerst in Italien, in Asti und dann in der Schweiz, in Gstaad.',
+    'Alessandro'=>'Im Alter von 23 Jahren arbeitete er nach seinem Abschluss am Hotelinstitut mehrere Jahre in der Gastronomie zunächst in Italien und dann im Ausland und beschloss dann, seine Fähigkeiten zu verfeinern, indem er sich erfolgreich an der IFSE-Akademie für Haute Cuisine und Haute Pasture qualifizierte.',
  ];

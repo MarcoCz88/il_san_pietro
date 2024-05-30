@@ -33,13 +33,13 @@
 .masthead h1 {
     font-size: 3.5rem;
     color: rgba(9, 6, 0, 0.811);
-    text-shadow: 6px 0 #d8b570, 0 2px #d8b570, 2px 0 #d8b570, 0 -2px #d8b570;
+    text-shadow: 6px 0 #f6af71dd, 0 2px #f6af71dd, 2px 0 #f6af71dd, 0 -2px #f6af71dd;
 }
 
 .masthead h2 {
     font-size: 2.5rem;
     color: rgba(5, 5, 4, 0.781);
-    text-shadow: 4px 0 #d8b570, 0 1px #d8b570, 1px 0 #d8b570, 0 -1px #d8b570;
+    text-shadow: 4px 0 #f6af71dd, 0 1px #f6af71dd, 1px 0 #f6af71dd, 0 -1px #f6af71dd;
 }
 @media (min-width: 992px) {
     .masthead h1 {
